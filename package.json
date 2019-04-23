@@ -1,0 +1,41 @@
+{
+  "name": "global-shared",
+  "version": "1.0.0-rc.1",
+  "description": "Share variables between packages (an npm package).",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^11.13.6",
+    "colors": "^1.3.3",
+    "fs-extra": "^7.0.1",
+    "task-scheduling": "^1.0.0-rc.3",
+    "node-watch": "^0.6.2",
+    "typescript": "^3.4.4"
+  },
+  "scripts": {
+    "build": "node dev.js build",
+    "clean": "node dev.js clean",
+    "copy": "node dev.js copy",
+    "watch": "node dev.js watch"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "global",
+    "variable",
+    "variables",
+    "shared"
+  ],
+  "author": {
+    "name": "FreeIntelligence",
+    "email": "free04381@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeintelligence/global-shared.git"
+  },
+  "bugs": {
+    "url": "https://github.com/freeintelligence/global-shared/issues"
+  },
+  "homepage": "https://github.com/freeintelligence/global-shared#readme",
+  "license": "ISC"
+}
